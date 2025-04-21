@@ -1,0 +1,60 @@
+body{
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin: 0 auto;   
+    width: 500px;
+    height: 550px;
+    background-color: green;
+    text-align: center;
+    border: 10px solid black;
+    border-radius: 20px;
+}  
+#i1{
+   padding: 10px 50px;
+   border-radius: 10px;
+   border: 5px solid gray;
+   text-align: center;
+   font-size: 1.5rem;
+}  
+.l1{
+    font-size: 2rem;
+}
+#b1{
+    padding: 20px 45px;
+    background-color: blue;
+    font-size: 1.5rem;
+    
+}
+#b1:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+#answer{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    #i1, #b1 {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .l1 {
+        font-size: 1.2rem;
+    }
+
+    #answer {
+        font-size: 1.5rem;
+    }
+}
+
+
