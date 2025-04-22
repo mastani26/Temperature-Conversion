@@ -43,9 +43,15 @@ form{
         padding: 15px;
     }
 
-    #i1, #b1 {
-        width: 70%;
+    #i1 {
+        width: 80%;
         font-size: 1.2rem;
+        box-sizing: border-box;
+    }
+    #b1{
+        width: 50%;
+        font-size: 1.2rem;
+        box-sizing: border-box;
     }
 
     .l1 {
@@ -56,5 +62,3 @@ form{
         font-size: 1.5rem;
     }
 }
-
-
