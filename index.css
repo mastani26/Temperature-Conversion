@@ -16,7 +16,7 @@ form{
     border-radius: 20px;
 }  
 #i1{
-   padding: 10px 50px;
+   padding: 10px 35px;
    border-radius: 10px;
    border: 5px solid gray;
    text-align: center;
@@ -27,7 +27,7 @@ form{
     font-size: 2rem;
 }
 #b1{
-    padding: 20px 45px;
+    padding: 20px 35px;
     background-color: blue;
     font-size: 1.5rem;
     width: 80%;  /* Ensure button doesn't exceed form width */
